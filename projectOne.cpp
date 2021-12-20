@@ -12,19 +12,13 @@ void swap_ours(int arr[], int x, int p);
 void selectionSort(int arr[], int n, int &swaps, int &compares);
 void merge(int arr[], int start, int mid, int end);
 void mergeSort(int arr[], int start, int end, int &compares);
-
-//Heap Sort functions from GeeksForGeeks.com 
 void heapify(int arr[], int heapSize, int i, int &compares);
 void heapSort(int arr[], int heapSize, int &compares);
 void bubbleSort(int arr[], int arraySize, int &compares);
 int* arrayGenerator(int arr[], int n);
-
 void exchangeSort(int arr[], int z, int &swaps, int &compares);
-
 void insertionSort(int arr[], int n, int &compares);
-
 void copy_ours(int arrA[], const int arrB[], int z);
-
 int partition (int arr[], int low, int high);
 void quickSort(int arr[], int low, int high, int &compares);
 
